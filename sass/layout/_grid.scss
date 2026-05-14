@@ -1,0 +1,38 @@
+.grid {
+  display: grid;
+  justify-items: center;
+max-width: 114rem;
+margin: 0 auto;
+gap: 6rem;
+
+@include respond(tab-port) {
+  max-width: 50rem;
+  gap: 3rem;
+}
+&--gap-small {
+  column-gap: 6rem;
+}
+&--gap-medium {
+  column-gap: 6rem;
+}
+
+&--2-cols {
+  grid-template-columns: 1fr 1fr;
+  @include respond(tab-port) {grid-template-columns: 1fr;}
+}
+&--1-to-3-cols {
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+  @include respond(tab-port) {grid-template-columns: 1fr;}
+}
+
+&--3-cols {
+  grid-template-columns: 1fr 1fr 1fr;
+  @include respond(tab-port) {grid-template-columns: 1fr;}
+}
+&--4-cols {
+  grid-template-columns: repeat(4,1fr);
+  @include respond(tab-port) {grid-template-columns: 1fr;}
+}
+}
+

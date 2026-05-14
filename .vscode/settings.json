@@ -1,0 +1,23 @@
+{
+  "editor.formatOnSave": true,
+  "files.autoSave": "afterDelay",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.fontSize": 20,
+  "editor.cursorBlinking": "expand",
+  "workbench.colorTheme": "Neon City",
+  "editor.fontFamily": "'Hack Nerd Font', 'Fira Code Nerd Font', 'Jetbrains Mono Nerd Font', 'monospace'",
+  "editor.smoothScrolling": true,
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.lineHeight": 1.5,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.5,
+  "editor.minimap.enabled": false,
+  "editor.tabSize": 2,
+  "workbench.iconTheme": "material-icon-theme"
+}
