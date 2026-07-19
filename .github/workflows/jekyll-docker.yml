@@ -5,9 +5,9 @@ jobs:
       runs-on: windows-latest
       steps:
         - name: Initial Step
-          run: console.log('Init Workflow')
+          run: echo Init Workflow
         - name: Setup Workflow
-          run: console.log('Setup Workflow')
+          run: echo Setup Workflow
         
     
           
